@@ -27,8 +27,10 @@ h2 {
 li {
     border-radius: 12px;
     list-style-type: none;
-    padding-left: 20px;
+    padding: 0 20px;
     margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
@@ -100,25 +102,29 @@ h3.result-title {
     width: 350px;
 }
 
+.categories {
+    display: inline-block;
+}
+
 .item-scores {
     color: hsl(224, 30%, 27%);
     display: inline-block;
 }
 
 .memory {
-    background-color: hsl(39, 100%, 95%);
+    background-color: hsl(39, 100%, 56%, 0.1);
 }
 
 .reaction {
-    background-color: hsl(0, 100%, 97%);
+    background-color: hsl(0, 100%, 67%, 0.1);
 }
 
 .verbal {
-    background-color: hsl(166, 100%, 90%);
+    background-color: hsl(166, 100%, 37%, 0.1);
 }
 
 .visual {
-    background-color: hsl(234, 85%, 95%);
+    background-color: hsl(234, 85%, 45%, 0.1);
 }
 
 .memory-title {
@@ -139,6 +145,10 @@ h3.result-title {
 .visual-title {
     display: inline-block;
     color: hsl(234, 85%, 45%);
+}
+
+.onehundred {
+    color: grey;
 }
 
 .btn {
